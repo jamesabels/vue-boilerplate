@@ -2,7 +2,7 @@
   <div class="error">
     <img src="../assets/logo.png">
     <h1 class="error-msg">404 Error</h1>
-    <h3>Page Not Found</h3>
+    <p>Page Not Found</p>
 </template>
 <script>
 import Store from '../store/store'
@@ -27,7 +27,6 @@ export default {
     margin-top: 60px;
   }
   .error-msg {
-    font-size: 5em;
     font-weight: normal;
   }
 
